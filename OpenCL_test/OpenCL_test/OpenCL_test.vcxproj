@@ -152,6 +152,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="check_device_info.cpp" />
     <ClCompile Include="vec_add.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -13,13 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Chapter3">
+      <UniqueIdentifier>{271c414f-b741-4d3b-a840-a3e43a491c83}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="vec_add.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="check_device_info.cpp">
+      <Filter>Source Files\Chapter3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="vecAdd.cl" />
+    <None Include="vecAdd.cl">
+      <Filter>Source Files\Chapter3</Filter>
+    </None>
   </ItemGroup>
 </Project>
