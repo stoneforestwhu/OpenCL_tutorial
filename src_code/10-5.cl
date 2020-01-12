@@ -22,7 +22,7 @@
     	barrier(CLK_LOCAL_MEM_FENCE);
 
     	for(int k = 0; k < BS; k++){
-    		v + ta[ty][k] * tb[k][tx];
+    		v += ta[ty][k] * tb[k][tx];
     	}
     	barrier(CLK_LOCAL_MEM_FENCE);
     }
